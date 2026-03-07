@@ -1,0 +1,16 @@
+atskaite_PB1_PD20.md
+pycache/
+*.pyc
+.pyo
+__pycache__
+
+.vscode/
+.env
+.env.
+
+.DS_Store
+
+pytest_cache/
+.cache/
+
+*.log

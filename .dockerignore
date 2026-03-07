@@ -1,0 +1,8 @@
+atskaite_PB1_PD20.md
+pycache
+*.pyc
+.git
+.github
+tests
+.vscode
+.env
