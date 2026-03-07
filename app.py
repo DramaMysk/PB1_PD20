@@ -13,8 +13,19 @@ def check_age(age: str) -> int:
     
     return age_num
 
+def check_name(name: str) -> str:
+    """parbauda varbu vai nav tuks, ir ar burtiem"""
+    name = name.strip()
+    if not name:
+        raise ValueError("vards nevar but tuks")
+    if not name.isalpha():
+        raise ValueError("vardam jabut ar butriem")
+    return name
+
 
 if __name__ == "__main__":
     age = input("Ievadiet vecumu: ")
+    name = input("Ieraksti vardu: ")
     rezultats = check_age(age)
-    print(f"Jusu ievaditais vecums ir {rezultats}")
+    vards = check_name(name)
+    print(f"Sveiki, {vards} tev ir {rezultats} gadi ")
