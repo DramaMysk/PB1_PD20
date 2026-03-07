@@ -11,7 +11,7 @@ def check_age(age: str) -> int:
     if age_num <= 0:
         raise ValueError("Gadiem jābut vairāk par 0")
     
-    return age_num
+    return age_num + 1
 
 
 if __name__ == "__main__":
