@@ -41,8 +41,8 @@ jobs:
 
       - name: Build Docker image (SemVer simulācija PB1 līmenī)
         run: |
-          docker build -t myapp:v1.0.0 .
-          echo "Built: myapp:v1.0.0"
+          docker build -t myapp:v1.1.0 .
+          echo "Built: myapp:v1.1.0"
 
 # Piezīme:
 # Profesionālā vidē šeit sekotu:
